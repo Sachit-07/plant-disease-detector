@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Streamlit
+.streamlit/
+
+# Dataset (too large for git, and shouldn't live in version control anyway)
+PlantVillage/
+PlantVillage-Dataset*/
+*.zip
+
+# Model files (optional — see note below)
+# *.keras
+# *.h5
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
